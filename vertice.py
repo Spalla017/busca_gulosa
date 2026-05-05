@@ -10,24 +10,4 @@ class vertice:
 
     def exibir_adjacentes(self):
         for i, adj in enumerate(self.adjacentes):
-            print(i, "-", adj.vertice.nome, "-", adj.custo)    
-
-    def getNome(self):
-        return self.nome
-    def setNome(self, nome):
-        self.nome = nome
-    
-    def getDistancia(self):
-        return self.distancia
-    def setDistancia(self, distancia):
-        self.distancia = distancia
-    
-    def getVisitado(self):
-        return self.visitado
-    def setVisitado(self, visitado):
-        self.visitado = visitado
-    
-    def getAdjacentes(self):
-        return self.adjacentes
-    def setAdjacentes(self, adjacentes):
-        self.adjacentes = adjacentes
+            print(i, "-", adj.vertice.nome, "-", adj.custo)
